@@ -1,0 +1,14 @@
+{
+    "name": "sanycows/example-package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sanycows\\ExamplePackage\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "8.2"
+    }
+}
